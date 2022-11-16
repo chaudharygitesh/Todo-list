@@ -1,0 +1,61 @@
+body{
+    height: 100vh;
+    background: linear-gradient(to right, #f8f9fa, #f9f9fa);   
+}
+.container{
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid white;
+    padding: 30px;
+    background-color: #fafafa;
+    box-shadow: rgba(37, 183, 232, 0.35) 0px 5px 15px;
+}
+.input-field{
+    text-align: center;
+}
+input[type="text"]{
+    color: #fff;
+    border: none;
+    border: 1px solid black;
+    max-width: 400px;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+}
+.options button{
+    
+    background: none;
+    border: none;
+    
+}
+.delbtn{
+    background: none;
+    border: none;
+    color: red;
+}
+.ctrl{
+
+    display: flex;
+    width: 10%;
+    align-items: center;
+    gap: 1rem;
+
+}
+.todos{
+    display:flex ;
+    flex-direction: column;
+
+}
+.todos>div{
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+}
+.delete{
+    cursor: pointer;
+    color: red;
+}
